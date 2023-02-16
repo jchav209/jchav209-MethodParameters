@@ -28,6 +28,8 @@ public class Lab {
 
      String str1 = copy("Hello");
      String str2 = copy("Polly");
+
+     
     public String copy(String text) {
         return text;
     }
