@@ -25,7 +25,14 @@ public class Lab {
      * @param text is a parameter passed into this method by whatever called it.
      * @return text.
      */
-    public String copy(String text){
-        return "text me please!";
+
+     String str1 = copy("Hello");
+     String str2 = copy("Polly");
+     
+    public String copy(String text) {
+        return text;
     }
+    
+    
+    
 }
